@@ -35,7 +35,6 @@
 #include <linux/sched.h>
 #include <linux/cpu_pm.h>
 #include <linux/cpuhotplug.h>
-#include <linux/regulator/machine.h>
 #include <linux/sched/clock.h>
 #include <linux/sched/stat.h>
 #include <soc/qcom/pm.h>
