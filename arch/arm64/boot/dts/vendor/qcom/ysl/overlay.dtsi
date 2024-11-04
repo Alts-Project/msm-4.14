@@ -4,5 +4,6 @@
 #include "ysl-regulator.dtsi"
 #include "ysl-audio.dtsi"
 #include "ysl-mdss.dtsi"
+#include "haptic.dtsi"
 #include "ysl-mtp.dtsi"
 #include "ysl-camera.dtsi"
