@@ -3822,7 +3822,6 @@ static int msm_gcc_probe(struct platform_device *pdev)
 
 static const struct of_device_id msm_clock_gcc_match_table[] = {
 	{ .compatible = "qcom,gcc-8953" },
-	{ .compatible = "qcom,gcc-sdm632" },
 	{},
 };
 
@@ -3872,7 +3871,6 @@ static int msm_clock_debug_probe(struct platform_device *pdev)
 
 static const struct of_device_id msm_clock_debug_match_table[] = {
 	{ .compatible = "qcom,cc-debug-8953" },
-	{ .compatible = "qcom,cc-debug-sdm632" },
 	{}
 };
 
@@ -3985,7 +3983,6 @@ pclk1_fail:
 
 static const struct of_device_id msm_clock_mdss_match_table[] = {
 	{ .compatible = "qcom,gcc-mdss-8953" },
-	{ .compatible = "qcom,gcc-mdss-sdm632" },
 	{}
 };
 
@@ -4134,7 +4131,6 @@ static int msm_gcc_gfx_probe(struct platform_device *pdev)
 static const struct of_device_id msm_clock_gfx_match_table[] = {
 	{ .compatible = "qcom,gcc-gfx-8953" },
 	{ .compatible = "qcom,gcc-gfx-sdm450" },
-	{ .compatible = "qcom,gcc-gfx-sdm632" },
 	{}
 };
 
