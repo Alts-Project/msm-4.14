@@ -1149,7 +1149,6 @@ static int cluster_configure(struct lpm_cluster *cluster, int idx,
 		 */
 		if (!from_idle) {
 			clock_debug_print_enabled(true);
-			regulator_debug_print_enabled();
 		}
 
 		cpu = get_next_online_cpu(from_idle);
