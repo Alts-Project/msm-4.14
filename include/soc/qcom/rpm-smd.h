@@ -1,4 +1,4 @@
-/* Copyright (c) 2012, 2014-2017, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012, 2014-2018, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -10,6 +10,8 @@
  * GNU General Public License for more details.
  *
  */
+
+#include <linux/platform_device.h>
 
 #ifndef __ARCH_ARM_MACH_MSM_RPM_SMD_H
 #define __ARCH_ARM_MACH_MSM_RPM_SMD_H
@@ -305,4 +307,5 @@ static inline int __init msm_rpm_driver_init(void)
 	return 0;
 }
 #endif
+
 #endif /*__ARCH_ARM_MACH_MSM_RPM_SMD_H*/
