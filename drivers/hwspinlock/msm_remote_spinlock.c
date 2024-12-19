@@ -20,7 +20,7 @@
 #include <linux/msm_remote_spinlock.h>
 #include <linux/slab.h>
 
-#include <linux/soc/qcom/smem.h>>
+#include <linux/soc/qcom/smem.h>
 
 /**
  * The local processor (APPS) is PID 0, but because 0 is reserved for an empty
